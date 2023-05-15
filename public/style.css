@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+img {
+    height: 100px;
+}
+h1 {
+    text-align: center;
+}
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#haircut_length, #haircut_product {
+    display: none;
+    text-align: center;
+}
+.products {
+    display: block;
+    width: min-content;
+}
+#haircut_product .main > img{
+    height: 200px;
+}
