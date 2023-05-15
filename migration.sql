@@ -1,10 +1,33 @@
-DROP TABLE IF EXISTS pet;
+DROP TABLE IF EXISTS hairstyles ;
+DROP TABLE IF EXISTS products ;
+DROP TABLE IF EXISTS accessories ;
+DROP TABLE IF EXISTS table_ids ;
 
-CREATE TABLE pet (
+CREATE TABLE hairstyles (
     id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL,
-    age INTEGER NOT NULL,
-    kind TEXT NOT NULL
+    hair_length TEXT NOT NULL,
+    description TEXT NOT NULL,
+    image_src TEXT NOT NULL,
+    youtube_link TEXT NOT NULL
 );
 
-INSERT INTO pet (name, age, kind) VALUES ('bob' , 2, 'snake');
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    description TEXT NOT NULL,
+    image_src TEXT NOT NULL,
+    buy_link TEXT NOT NULL
+);
+
+CREATE TABLE accessories (
+    id SERIAL PRIMARY KEY,
+    description TEXT NOT NULL,
+    image_scr TEXT NOT NULL,
+    buy_link TEXT NOT NULL
+);
+
+CREATE TABLE table_ids (
+  hairsyles_id INTEGER,
+  products_id INTEGER,
+  accessories_id INTEGER
+);
+
