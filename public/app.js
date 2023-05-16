@@ -1,8 +1,19 @@
-fetch("/api/HairstylesMVP") 
-.then((res) => res.json())
-.then((id) => {
- console.log(id);
-});
+const hair_length = 'short';
+const requestOptions = {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  params: JSON.stringify({ hair_length: hair_length })
+};
+fetch("/api/HairstylesMVP", requestOptions)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+
+// fetch("/api/HairstylesMVP") 
+// .then((res) => res.json())
+// .then((id) => {
+//  console.log(id);
+// });
 //look up documents ready
 function display_page(e){
     let elButton=e.target;
@@ -12,6 +23,7 @@ function display_page(e){
     $("#home").hide();
     console.log(str);
 }
+
 function display_home(){
     $("#haircut_length").hide();
     $("#haircut_product").hide();
