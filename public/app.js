@@ -1,8 +1,8 @@
 function display_page(e){
     let elButton=e.target;
     let str = $(elButton).parents(".hairlength").find(".header").text().trim();
-    let haircut = {};
-    $("#haircut_length .header").text(str.charAt(0).toUpperCase() + str.slice(1));
+    // let haircut = {};
+    $("#haircut_length .header").text(str);
     $("#haircut_length").show();
     $("#home").hide();
 
@@ -10,7 +10,6 @@ function display_page(e){
         .then(response => response.json())
         .then(data => display_haircuts(data))
         .catch(error => console.error(error));
-  
 }
 
 function display_haircuts(arrHaircut){
