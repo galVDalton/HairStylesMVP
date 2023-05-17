@@ -1,10 +1,3 @@
-// fetch("/api/HairstylesMVP/short")
-//   .then(response => response.json())
-//   .then(data => console.log(data))
-//   .catch(error => console.error(error));
-
-
-
 function display_page(e){
     let elButton=e.target;
     let str = $(elButton).parents(".hairlength").find(".header").text().trim();
@@ -21,7 +14,6 @@ function display_page(e){
 }
 
 function display_haircuts(arrHaircut){
-    // console.log(arrHaircut);
     let container = document.querySelector("#haircut_length .main");
     $(container).html("");
     
