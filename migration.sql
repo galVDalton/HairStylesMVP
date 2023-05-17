@@ -27,7 +27,7 @@ CREATE TABLE products (
 
 CREATE TABLE table_ids (
   hairsyles_id INTEGER,
-  products_id INTEGER,
+  products_id INTEGER
 --   accessories_id INTEGER
 );
 
