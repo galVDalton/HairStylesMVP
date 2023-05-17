@@ -1,17 +1,28 @@
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , 'youtube.com//crewcut');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , 'youtube.com//crewcut');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , 'u4tKuizMo60');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , 'u4tKuizMo60');
 
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
 
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , 'u4tKuizMo60');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , 'u4tKuizMo60');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , 'u4tKuizMo60');
+
+
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpg' , 'u4tKuizMo60');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpg' , 'u4tKuizMo60');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) 
+VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpg' , 'u4tKuizMo60');
 
 -- long hair - dread locks
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpg' , 'u4tKuizMo60');
 INSERT INTO products ( description, image_src, buy_link )
 VALUES ('locking_gel' , 'locking_gel.jpeg'  , 'https://www.greatlocs.com/product/locking-gel/' ) ; 
 INSERT INTO products ( description, image_src, buy_link )

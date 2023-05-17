@@ -11,6 +11,10 @@ img {
 h1 {
     text-align: center;
 }
+.main h1 {
+    background-color: aqua;
+    color: black;
+}
 .header {
     text-align: center;
     background-color: black;
