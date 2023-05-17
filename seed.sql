@@ -1,14 +1,14 @@
 INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , 'youtube.com//crewcut');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'snake' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'snake' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('short' , 'ponytail' , 'short_crew.jpeg' , '');
 
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'snake' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'snake' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'snake' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('medium' , 'ponytail' , 'short_crew.jpeg' , '');
 
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'snake' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'snake' , '');
-INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'snake' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
+INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'ponytail' , 'short_crew.jpeg' , '');
 
 -- long hair - dread locks
 INSERT INTO hairstyles ( hair_length, description, image_src, youtube_link ) VALUES ('long' , 'long_dreadlocks' , 'long_dreadlocks.jpeg' , '');

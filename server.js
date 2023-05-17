@@ -12,18 +12,17 @@ const db = new pg.Pool ({
 
 app.use(express.static("public"));
 
-app.post("/api/HairstylesMVP", (req, res) => {
-  let hair_length = req.params.hair_length;
- //let haircut_length = "short"
-  //   db.query(`SELECT * FROM hairstyles WHERE hair_length = $1`, [hair_length]
-  //   ).then((data) => {
-  //     if (data.rows.length === 0) {
-  //       res.sendStatus(404);
-  //     } else {
-  //       res.json(data.rows);
-  //     }
-  // });
-  console.log("hair_length = " , req);
+app.get("/api/HairstylesMVP/:id", (req, res) => {
+  let hair_length = req.params.id;
+    db.query(`SELECT * FROM hairstyles WHERE hair_length = $1`, [hair_length]
+    ).then((data) => {
+      if (data.rows.length === 0) {
+        res.sendStatus(404);
+      } else {
+        res.json(data.rows);
+      }
+  });
+  //console.log("hair_length = " , req.params);
 });
 
 // TODO: Replace 3000 with process.env.PORT
